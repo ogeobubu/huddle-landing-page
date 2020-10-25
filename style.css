@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: absolute;
+  background: purple;
+  color: #ffffff;
+  width: 1440px;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 970px;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.flex {
+  display: flex;
+  margin-top: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#image {
+  width: 400px;
+  padding: 2rem;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  margin-top: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  cursor: pointer;
+  box-shadow: 3px 3px #000000;
+}
+
+i {
+  color: #ffffff;
+  border: 1px #ccc solid;
+  padding: 0.7rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(./images/bg-mobile.svg);
+    width: 100px;
+    max-width: 50%;
+    margin: auto;
+    height: fit-content;
+  }
+  .container {
+    width: 350px;
+    max-width: 100%;
+    margin: auto;
+    height: fit-content;
+  }
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    text-align: center;
+    padding-left: 0.8rem;
+  }
+
+  p {
+    text-align: center;
+    padding-left: 5.8rem;
+  }
+
+  .button {
+    text-align: center;
+    padding-left: 4.8rem;
+  }
+
+  button {
+    width: 190px;
+    padding: 0.8rem;
+  }
+
+  #image {
+    width: 350px;
+  }
+
+  .social {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  p {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .button {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .social {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 414px) {
+}
